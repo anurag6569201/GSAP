@@ -1,0 +1,12 @@
+gsap.to(".box",{
+    x:1000,
+    duration:5,
+    delay:1,
+    rotate:360,
+    backgroundColor:"blue",
+    scale:.5,
+    borderRadius:"50%",
+    stagger:5,
+    repeat:1,
+    yoyo:true
+})
